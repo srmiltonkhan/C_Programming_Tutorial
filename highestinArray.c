@@ -16,6 +16,7 @@ int main(){
 	for(i=1; i<=n; i++){
 		if(max<num[i]){
 			max = num[i];
+			
 		}
 	}
 	printf("Maximum value is %d: ", max);
